@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+h1.Cabeçalho{
+    font-size: xx-large;
+    position:relative;
+    left: 45%;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+#background{
+    background-color: gray;
+}
+
+body.h2{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+img.gamer{
+    background-color:aliceblue;
+    float: left;
+    width: 450px;
+}
+
+h2.gamer{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+p.gamervalor{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+button.Compregamer{
+    
+    top: 200px;
+    left:70px ;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.5em;
+    background-color: #0074e9;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+}
+
+button.Conheçagamer{
+    
+    top: 200px;
+    width: 200px;
+    border: #0074e9 solid 3px;
+    border-radius: 0.5em;
+    background-color: white;
+    color: #80a3c6;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+div.gamer{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+div.gamer2{
+    border-bottom: 160px solid;
+    border-color: aliceblue;
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: x-large;
+}
+
+p.gamervalor2{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+img.gamer2{
+    background-color:white;
+    float: left;
+    width: 450px;
+}
+
+h2.gamer2{
+    background-color:white;
+    font-family: 'Roboto', sans-serif;
+    color: #0074e9;
+}
+
+.footer{
+   display: flex;
+
+}
+
+div.Conta{
+    float: left;
+}
+
+div.Suporte{
+    float: left;
+}
+
+div.FaleConosco{
+    float: left;
+}
+
+p.Rodapé{
+    position: relative;
+}

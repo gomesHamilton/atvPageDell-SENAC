@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav1 {
+    margin: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav1Right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav1Left {
+    width: 40%;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logoDell {
+    width: 35%;
+}
+
+.divPesquisa {
+    position: relative;
+}
+
+.divPesquisa1 {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+#pesquisa {
+    width: 405px;
+    padding-left: 15px;
+    height: 30px;
+    border: 1px solid #f5f6f7;
+    border-color: #ddd;
+    border-width: 1px;
+}
+
+.lupa {
+    width: 15px;
+}
+
+.iconsNav1 {
+    width: 15px;
+    padding-right: 8px;
+}
+
+.buttonNav1,
+.buttonRNav1 {
+    padding: 20px;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+.buttonNav1:hover,
+.buttonRNav1:hover {
+    background-color: #d2d2d291;
+}
+
+.buttonRNav1 {
+    margin-right: 20px;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsNav2 {
+    width: 55px;
+}
+
+.navDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonNav2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 90px;
+    background-color: transparent;
+    border: 0px solid;
+}
+
+.buttonNav2:hover, .links:hover {
+    background-color: #f5f6f7;
+    color: #2B87D2;
+    font-weight: bolder;
+    transform: scale(1.1);
+}
+
+.wallpaper {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.positionFale {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+}
+
+.buttonFale {
+    width: 120px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #0063B8;
+    border: 0px;
+    border-radius: 2.5em;
+}
+
+.buttonFale:hover {
+    transform: scale(1.1);
+}
+
+.layoutPrincipal {
+    position: relative;
+}
+
+.textLayout {
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    right: 7%;
+    top: 25%;
+    width: 30%;
+}
+
+#g15H2 {
+    font-size: 22px;
+}
+
+#g15P {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#g15H1 {
+    font-size: 34px;
+}
+
+#faleH2 {
+    font-size: 13px;
+}
+
+.g15Button1 {
+    background-color: #0063B8;
+    color: white;
+    border: 0px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.g15Button1:hover {
+    background-color: #0059a7;
+}
+
+.g15Button2 {
+    background-color: white;
+    color: #0063B8;
+    font-size: 20px;
+    border: 1.5px solid #0063B8;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.g15Button2:hover {
+    background-color: #D9F5FD;
+}
